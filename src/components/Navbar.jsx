@@ -6,7 +6,7 @@ import logo from '../Assets/logo.png';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { CgGitFork } from 'react-icons/cg';
-import { AiFillStar, AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { AiFillStar, AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { CgFileDocument } from 'react-icons/cg';
 
 function NavBar() {
@@ -48,11 +48,11 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link as={Link} to='/project' onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} /> Projects
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to='/resume' onClick={() => updateExpanded(false)}>
