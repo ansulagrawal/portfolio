@@ -10,7 +10,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Ansul Agrawal </span>
             from <span className="purple"> Navsari, India.</span>
             <br />
-            I am currently employed as a Software Developer at General Aeronautics.
+            I am currently employed as a L3 Software Developer at General Aeronautics.
             <br />
             I have completed B Tech  in Computer Science and Engineering at REVA University Bangalore.
             <br />

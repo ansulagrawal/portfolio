@@ -4,25 +4,28 @@ import { SiRedis, SiFirebase, SiNextdotjs, SiPostgresql, SiMysql, SiEslint } fro
 import { SiSocketdotio } from 'react-icons/si';
 
 const TECH_LIST = [
-  { name: 'javascript', icon: <DiJavascript1 /> },
-  { name: 'nodejs', icon: <DiNodejs /> },
-  { name: 'react', icon: <DiReact /> },
-  { name: 'next.js', icon: <SiNextdotjs /> },
-  { name: 'mysql', icon: <SiMysql /> },
-  { name: 'postgresql', icon: <SiPostgresql /> },
-  { name: 'mongodb', icon: <DiMongodb /> },
-  { name: 'git', icon: <DiGit /> },
-  { name: 'firebase', icon: <SiFirebase /> },
-  { name: 'redis', icon: <SiRedis /> },
-  { name: 'socket.io', icon: <SiSocketdotio /> },
-  { name: 'eslint', icon: <SiEslint /> },
+  { name: 'Javascript', icon: <DiJavascript1 /> },
+  { name: 'Node.js', icon: <DiNodejs /> },
+  { name: 'React', icon: <DiReact /> },
+  { name: 'Next.js', icon: <SiNextdotjs /> },
+  { name: 'MySQL', icon: <SiMysql /> },
+  { name: 'PostgreSQL', icon: <SiPostgresql /> },
+  { name: 'MongoDB', icon: <DiMongodb /> },
+  { name: 'Git', icon: <DiGit /> },
+  { name: 'Firebase', icon: <SiFirebase /> },
+  { name: 'Redis', icon: <SiRedis /> },
+  { name: 'Socket.io', icon: <SiSocketdotio /> },
+  { name: 'Eslint', icon: <SiEslint /> },
 ];
 function Techstack() {
   return (
-    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
+    <Row className="tech-wrapper" style={{ justifyContent: 'center', marginBlock: '30px 80px' }}>
       {TECH_LIST.map(({ name, icon }) => (
-        <Col xs={4} md={2} key={name} className='tech-icons'>
+        <Col xs={4} md={2} key={name} className='tech-card'>
           {icon}
+          <div className="tech-card-content">
+            <p>{name}</p>
+          </div>
         </Col>
       ))}
     </Row>
