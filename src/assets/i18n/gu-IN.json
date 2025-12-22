@@ -1,0 +1,35 @@
+{
+  "resume": "રેઝ્યૂમે",
+  "information": "માહિતી",
+  "skills": "કૌશલ્યો",
+  "language": "ભાષા",
+  "about": "મારા વિશે",
+  "experience": "અનુભવ",
+  "volunteer": "સ્વયંસેવક",
+  "education": "શિક્ષણ",
+  "license": "લાયસન્સ અને પ્રમાણપત્રો",
+  "project": "પ્રોજેક્ટ્સ",
+  "credential": "પ્રમાણપત્ર",
+  "credential_code": "પ્રમાણપત્ર કોડ",
+  "settings": {
+    "title": "સેટિંગ્સ",
+    "theme": "થીમ",
+    "dark_mode": "ડાર્ક મોડ સક્રિય કરશો?",
+    "pt": "પોર્ટુગીઝ",
+    "gu": "ગુજરાતી",
+    "hi": "હિન્દી",
+    "en": "અંગ્રેજી"
+  },
+  "menu": {
+    "experience": "અનુભવ",
+    "education": "શિક્ષણ",
+    "project": "પ્રોજેક્ટ્સ"
+  },
+  "paginate": {
+    "count": "{total} માંથી {first} થી {last} બતાવી રહ્યા છીએ",
+    "previous_page": "પાછલું પેજ",
+    "next_page": "આગળનું પેજ",
+    "first_page": "પ્રથમ પેજ",
+    "last_page": "છેલ્લું પેજ"
+  }
+}

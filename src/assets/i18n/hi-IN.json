@@ -1,0 +1,35 @@
+{
+  "resume": "रेज़्यूमे",
+  "information": "जानकारी",
+  "skills": "कौशल",
+  "language": "भाषा",
+  "about": "मेरे बारे में",
+  "experience": "अनुभव",
+  "volunteer": "स्वयंसेवा",
+  "education": "शिक्षा",
+  "license": "लाइसेंस और प्रमाणपत्र",
+  "project": "परियोजनाएँ",
+  "credential": "प्रमाणपत्र",
+  "credential_code": "प्रमाणपत्र कोड",
+  "settings": {
+    "title": "सेटिंग्स",
+    "theme": "थीम",
+    "dark_mode": "डार्क मोड सक्षम करें?",
+    "pt": "पुर्तगाली",
+    "gu": "गुजराती",
+    "hi": "हिंदी",
+    "en": "अंग्रेज़ी"
+  },
+  "menu": {
+    "experience": "अनुभव",
+    "education": "शिक्षा",
+    "project": "परियोजनाएँ"
+  },
+  "paginate": {
+    "count": "{total} में से {first} से {last} दिखा रहे हैं",
+    "previous_page": "पिछला पेज",
+    "next_page": "अगला पेज",
+    "first_page": "पहला पेज",
+    "last_page": "आख़िरी पेज"
+  }
+}

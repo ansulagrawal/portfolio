@@ -1,0 +1,160 @@
+{
+  "profile": {
+    "name": "અંસુલ અગ્રવાલ",
+    "job": "સોફ્ટવેર એન્જિનિયર",
+    "avatar": "img/profile/avatar.jpg",
+    "aboutMe": "3+ વર્ષના અનુભવ ધરાવતા પરિણામકેન્દ્રિત સોફ્ટવેર એન્જિનિયર. સ્કેલેબલ ફુલ-સ્ટેક એપ્લિકેશન્સ બનાવવામાં અને ક્રોસ-ફંક્શનલ ડેવલપમેન્ટ ટીમ્સને નેતૃત્વ આપવામાં નિષ્ણાત. સિસ્ટમ પરફોર્મન્સ ઑપ્ટિમાઇઝ કરીને લોડ ટાઈમમાં 40% સુધી ઘટાડો કર્યો છે અને હજારો યુઝર્સને સર્વ કરતી એન્ટરપ્રાઇઝ-ગ્રેડ સોલ્યુશન્સ સફળતાપૂર્વક ડિલિવર કર્યા છે. React, Node.js, ક્લાઉડ ઇન્ફ્રાસ્ટ્રક્ચર, CI/CD ઓટોમેશન અને આધુનિક DevOps પ્રેક્ટિસિસમાં મજબૂત અનુભવ.",
+    "socialNetwork": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ansulagrawal"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ansulagrawal"
+      }
+    ]
+  },
+  "cv": {
+    "icon": "DocumentTextIcon",
+    "name": "PDF",
+    "value": "અંસુલ અગ્રવાલ",
+    "url": "https://resume.ansulagrawal.in/resume.pdf"
+  },
+  "information": [
+    {
+      "icon": "EnvelopeIcon",
+      "name": "ઇમેઇલ સરનામું",
+      "value": "ansulagrawal9@gmail.com",
+      "type": "email"
+    },
+    {
+      "icon": "GlobeAltIcon",
+      "name": "વેબસાઇટ",
+      "value": "https://ansulagrawal.in",
+      "type": "link"
+    },
+    {
+      "icon": "ComputerDesktopIcon",
+      "name": "કામનો પ્રકાર",
+      "value": "રિમોટ અથવા ફુલ-ટાઇમ"
+    }
+  ],
+  "skill": [
+    "React",
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+    "Redux Toolkit",
+    "Next.js",
+    "Tailwind CSS",
+    "Ant Design",
+    "Node.js",
+    "Hapi.js",
+    "Express.js",
+    "FastAPI",
+    "Python",
+    "REST APIs",
+    "Microservices",
+    "AWS",
+    "Azure",
+    "MySQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Docker",
+    "Git",
+    "GitHub Actions",
+    "CI/CD",
+    "Nginx",
+    "Postman",
+    "Jira",
+    "Microsoft Intune",
+    "Power Automate"
+  ],
+  "language": [
+    {
+      "name": "અંગ્રેજી",
+      "code": "en-IN",
+      "flag": "svg/india.svg"
+    },
+    {
+      "name": "હિન્દી",
+      "code": "hi-IN",
+      "flag": "svg/india.svg"
+    },
+    {
+      "name": "ગુજરાતી",
+      "code": "gu-IN",
+      "flag": "svg/india.svg"
+    }
+  ],
+  "experience": [
+    {
+      "job": "સોફ્ટવેર એન્જિનિયર",
+      "company": "RedAnt Technologies",
+      "companyLogo": "img/company/redant.jpg",
+      "location": "ભારત",
+      "workType": "ફુલ-ટાઇમ",
+      "start": "ફેબ્રુઆરી 2025",
+      "end": "વર્તમાન",
+      "description": "FastAPI અને Python નો ઉપયોગ કરીને રોબોટિક ફ્લીટ્સ માટે OTA અપડેટ સિસ્ટમ ડિઝાઇન કરી. Keycloak દ્વારા સુરક્ષિત ઓથેન્ટિકેશન અને RBAC અમલમાં મૂક્યું. React આધારિત ડેશબોર્ડ્સ બનાવીને રોલઆઉટ મેનેજમેન્ટ અને ટેલેમેટ્રી મોનિટરિંગ કર્યું (Grafana). GitHub Actions અને Azure વડે CI/CD પાઇપલાઇન્સ સ્થાપિત કરી. SharePoint પોર્ટલ ડેવલપમેન્ટ અને Power Automate તથા Microsoft Intune દ્વારા એન્ટરપ્રાઇઝ વર્કફ્લોઝ ઓટોમેટ કર્યા, જેના કારણે મેન્યુઅલ મહેનત 80% સુધી ઘટી."
+    },
+    {
+      "job": "L3 સોફ્ટવેર એન્જિનિયર",
+      "company": "General Aeronautics",
+      "companyLogo": "img/company/general-aeronautics.jpg",
+      "location": "બેંગલોર, ભારત",
+      "workType": "ફુલ-ટાઇમ",
+      "start": "ફેબ્રુઆરી 2022",
+      "end": "જાન્યુઆરી 2025",
+      "description": "1000+ યુઝર્સ માટે એન્ટરપ્રાઇઝ ડ્રોન ફ્લીટ મેનેજમેન્ટ પ્લેટફોર્મનું ફુલ-સ્ટેક ડેવલપમેન્ટ નેતૃત્વ કર્યું. Redux Toolkit અને Ant Design સાથે 50+ React પેજેસ બનાવી લોડ ટાઈમમાં 40% ઘટાડો કર્યો. Node.js, Hapi.js અને MySQL વડે 50+ REST APIs વિકસાવ્યા. 6 એન્જિનિયર્સ સુધીની ટીમનું નેતૃત્વ કર્યું, પ્રોડક્શન બગ્સમાં 35% ઘટાડો કર્યો અને CI/CD પાઇપલાઇન્સ દ્વારા ડિપ્લોયમેન્ટ સમય 2 કલાકમાંથી 15 મિનિટ કર્યો."
+    }
+  ],
+  "education": [
+    {
+      "college": "REVA યુનિવર્સિટી",
+      "collegeLogo": "img/college/reva-university.png",
+      "course": "કમ્પ્યુટર સાયન્સ અને એન્જિનિયરિંગમાં બી.ટેક",
+      "start": "2018",
+      "end": "2022",
+      "grade": "8.49 CGPA",
+      "location": "બેંગલોર, ભારત"
+    }
+  ],
+  "certificate": [
+    {
+      "course": "Advance React",
+      "schoolLogo": "img/college/meta.jpg",
+      "school": "Meta",
+      "issueDate": "માર્ચ 2023",
+      "expirationDate": "સમાપ્તિ તારીખ નથી",
+      "url": ""
+    },
+    {
+      "course": "Front-End Web Development with React",
+      "schoolLogo": "img/college/coursera.jpg",
+      "school": "The Hong Kong University of Science and Technology",
+      "issueDate": "જુલાઈ 2021",
+      "expirationDate": "સમાપ્તિ તારીખ નથી",
+      "url": ""
+    },
+    {
+      "course": "Microsoft Certified: Azure Fundamentals",
+      "schoolLogo": "img/college/azure-fundamentals.jpg",
+      "school": "Microsoft",
+      "issueDate": "જૂન 2021",
+      "expirationDate": "સમાપ્તિ તારીખ નથી",
+      "url": ""
+    }
+  ],
+  "project": [
+    {
+      "name": "React Big Schedule",
+      "description": "ઓપન-સોર્સ React શેડ્યુલિંગ લાઇબ્રેરી જેમાં 175+ સ્ટાર્સ, 45+ ફોર્ક્સ અને દર અઠવાડિયે 2000+ npm ડાઉનલોડ્સ છે. સમુદાયના યોગદાન સાથે સક્રિય રીતે મેન્ટેઇન કરવામાં આવે છે.",
+      "language": "React",
+      "image": "img/project/react-big-schedule.png",
+      "url": "https://github.com/ansulagrawal/react-big-schedule"
+    }
+  ]
+}
