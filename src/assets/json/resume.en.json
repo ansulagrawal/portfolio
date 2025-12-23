@@ -2,7 +2,7 @@
   "profile": {
     "name": "Ansul Agrawal",
     "job": "Software Engineer",
-    "avatar": "img/profile/avatar.jpg",
+    "avatar": "https://assets.ansulagrawal.in/avatar.jpg",
     "aboutMe": "Results-driven Software Engineer with 3+ years of experience building scalable full-stack applications and leading cross-functional development teams. Proven track record of optimizing system performance, reducing load times by up to 40%, and delivering enterprise-grade solutions serving thousands of users. Strong expertise in React, Node.js, cloud infrastructure, CI/CD automation, and modern DevOps practices.",
     "socialNetwork": [
       {
