@@ -3,7 +3,52 @@
     "name": "Ansul Agrawal",
     "job": "Software Engineer",
     "avatar": "https://assets.ansulagrawal.in/avatar.jpg",
-    "aboutMe": "Results-driven Software Engineer with 3+ years of experience building scalable full-stack applications and leading cross-functional development teams. Proven track record of optimizing system performance, reducing load times by up to 40%, and delivering enterprise-grade solutions serving thousands of users. Strong expertise in React, Node.js, cloud infrastructure, CI/CD automation, and modern DevOps practices.",
+    "aboutMe": {
+      "greeting": "Hey there! 👋",
+
+      "introduction": "I'm a Full-Stack JavaScript Engineer with 4 years of experience building scalable web applications for enterprise and robotics domains. I specialize in React, TypeScript, and Node.js, turning complex problems into elegant solutions that serve thousands of users.",
+
+      "journey": {
+        "title": "My Journey",
+        "content": "Started as a React Developer intern at Lupus Creed, progressed to L3 Software Engineer at General Aeronautics (leading teams of 6), and currently building automation and cloud infrastructure at RedAnt Technology. Along the way, I've built systems serving 1,000+ users, reduced deployment time by 88%, and maintained an open-source library with 2,000+ weekly downloads."
+      },
+
+      "expertise": {
+        "title": "What I Do Best",
+        "items": [
+          "Build production-grade web applications with React, TypeScript, and Node.js",
+          "Architect scalable REST APIs and microservices processing 10,000+ daily transactions",
+          "Develop real-time collaboration features using WebSocket and Server-Sent Events",
+          "Optimize performance—40% faster page loads, 88% faster deployments",
+          "Establish CI/CD pipelines, code review standards, and DevOps best practices",
+          "Maintain open-source projects and mentor developer communities"
+        ]
+      },
+
+      "impact": {
+        "title": "Measurable Impact",
+        "metrics": [
+          { "value": "40%", "label": "Faster page loads" },
+          { "value": "88%", "label": "Deployment time reduction" },
+          { "value": "35%", "label": "Fewer production bugs" },
+          { "value": "1,000+", "label": "Daily active users" },
+          { "value": "1,500+", "label": "Weekly npm downloads" },
+          { "value": "70%", "label": "Admin efficiency gain" }
+        ]
+      },
+
+      "philosophy": {
+        "title": "My Philosophy",
+        "content": "I'm not satisfied with 'it works.' I want 'it works fast, scales effortlessly, and other developers love maintaining it.' That's why I obsess over performance metrics, write comprehensive tests, establish code review standards, and document everything thoroughly."
+      },
+
+      "beyondCode": {
+        "title": "Beyond Coding",
+        "content": "When I'm not shipping features, you'll find me contributing to open source (React Big Schedule maintainer), optimizing build pipelines, mentoring developers in the React community, or exploring the latest in web performance optimization and DevOps practices."
+      },
+
+      "callToAction": "Let's build something great together. Whether you're architecting the next big platform or need someone to optimize your infrastructure, I'm always open to discussing interesting projects."
+    },
     "socialNetwork": [
       {
         "name": "Github",
@@ -41,36 +86,54 @@
     }
   ],
   "skill": [
-    "React",
+    "React.js",
+    "Next.js",
     "React Native",
     "TypeScript",
     "JavaScript",
     "Redux Toolkit",
-    "Next.js",
     "Tailwind CSS",
     "Ant Design",
+    "HTML5",
+    "CSS3",
     "Node.js",
-    "Hapi.js",
     "Express.js",
-    "FastAPI",
-    "Python",
+    "Hapi.js",
+    "Fastify",
     "REST APIs",
     "Microservices",
-    "AWS",
-    "Azure",
-    "MySQL",
     "PostgreSQL",
+    "MySQL",
     "MongoDB",
     "Redis",
+    "AWS",
+    "Azure",
     "Docker",
-    "Git",
-    "GitHub Actions",
     "CI/CD",
+    "GitHub Actions",
+    "Bitbucket Pipelines",
     "Nginx",
+    "Git",
+    "WebSockets",
+    "Server-Sent Events",
+    "Keycloak",
+    "JWT",
+    "OAuth",
+    "SSO",
+    "RBAC",
+    "Grafana",
     "Postman",
     "Jira",
-    "Microsoft Intune",
-    "Power Automate"
+    "Camunda",
+    "Power Automate",
+    "ClickUp",
+    "Google Maps API",
+    "Meta WhatsApp API",
+    "Microsoft Graph API",
+    "Razorpay API",
+    "Agile",
+    "Scrum",
+    "SEO"
   ],
   "language": [
     {
@@ -94,11 +157,26 @@
       "job": "Software Engineer",
       "company": "RedAnt Technologies",
       "companyLogo": "img/company/redant.jpg",
-      "location": "India",
+      "location": "Bangalore, India",
       "workType": "Fulltime",
       "start": "Feb 2025",
-      "end": "Present",
-      "description": "Architecting an OTA update system for robotic fleets using FastAPI and Python. Implemented secure authentication and RBAC with Keycloak. Built React dashboards for rollout management and telemetry monitoring with Grafana. Established CI/CD pipelines using GitHub Actions and Azure. Led SharePoint portal development and automated enterprise workflows using Power Automate and Microsoft Intune, reducing manual effort by up to 80%."
+      "end": "Nov 2025",
+      "description": {
+        "highlight": [
+          "Established automated deployment pipelines using GitHub Actions and Azure, reducing deployment time by 70% and improving release reliability through CI/CD practices.",
+          "Enhanced SEO through structured metadata and semantic HTML, improving search ranking by 2 positions while developing WCAG-compliant UI components with full mobile responsiveness",
+          "Migrated company website to Next.js with Static Site Generation, reducing bundle size by 20% and improving page speed by 23% through code splitting, lazy loading, and image optimization.",
+          "Reduced resource discovery time by 60% and administrative processing time by 70% through company-wide SharePoint portal automation serving 25+ employees with 15+ Power Automate workflows."
+        ],
+        "role": [
+          "Led full-stack development of automation and cloud infrastructure solutions, building internal portals and secure deployment systems for robotics operations.",
+          "Designed company-wide SharePoint portal with automated approval workflows using Power Automate, deployed as default homepage via Microsoft Intune browser management, achieving 95%+ adoption rate.",
+          "Migrated legacy static site to Next.js with Static Site Generation, implementing code splitting, lazy loading, and image optimization for enhanced performance and user experience.",
+          "Established CI/CD practices using GitHub Actions and Azure for automated versioning and deployment workflows, reducing deployment time by 70%.",
+          "Developed OTA firmware update system using Express.js and Node.js with Keycloak-based RBAC for secure device communication, React control dashboard for deployment management, and Grafana integration for real-time telemetry visualization (ongoing development).",
+          "Built business process automation solution using Express, MongoDB, React, and Tailwind CSS with scalable API architecture, JWT authentication, and role-based access control (proof of concept)."
+        ]
+      }
     },
     {
       "job": "L3 Software Engineer",
@@ -108,7 +186,45 @@
       "workType": "Fulltime",
       "start": "Feb 2022",
       "end": "Jan 2025",
-      "description": "Led full-stack development for enterprise drone fleet management platforms serving 1000+ users. Built 50+ React pages with Redux Toolkit and Ant Design, reducing load times by 40%. Developed 50+ REST APIs using Node.js, Hapi.js, and MySQL. Led teams of up to 6 engineers, reduced production bugs by 35%, and cut deployment time from 2 hours to 15 minutes using CI/CD pipelines."
+      "description": {
+        "highlight": [
+          "Led enterprise drone fleet management platform serving 1,000+ users—improved page loads by 40%, data processing by 15%, and supported 500+ concurrent operations across 50+ APIs and 50+ web pages.",
+          "Reduced deployment time by 88% (2 hours → 15 minutes) and production defects by 35% through CI/CD automation and code review standards, managing team of 6 engineers.",
+          "Built WhatsApp booking automation (Meta API + Camunda) increasing engagement by 20%, enabling 1,000+ monthly farmer interactions, and reducing pilot workload by 12% through intelligent scheduling algorithm."
+        ],
+        "role": [
+          "Architected 50+ production web pages using React, Redux Toolkit, and Ant Design, implementing code splitting, lazy loading, and component reusability that reduced bundle size by 20%.",
+          "Built 50+ RESTful APIs and 20+ backend modules using Node.js, Hapi.js, and MySQL, processing 10,000+ daily transactions and supporting 500+ concurrent users with 15% faster data processing.",
+          "Designed intelligent booking algorithm analyzing pilot availability, drone readiness, and weather conditions to optimize scheduling, saving 15+ operational hours weekly.",
+          "Established CI/CD pipeline using Bitbucket Pipelines, automated testing workflows, and code review standards reducing deployment time from 2 hours to 15 minutes.",
+          "Led team of 6 engineers implementing Scrum practices, conducting technical reviews, and establishing code quality standards that reduced production bugs by 35%.",
+          "Resolved critical integration issues between booking system, fleet management, and payment modules, preventing system failures during testing and production releases."
+        ]
+      }
+    },
+    {
+      "job": "React JS Developer",
+      "company": "Lupus Creed",
+      "companyLogo": "img/company/lupus-creed.jpg",
+      "location": "Bangalore, India",
+      "workType": "Internship",
+      "start": "Apr 2021",
+      "end": "Jan 2022",
+      "description": {
+        "highlight": [
+          "Developed responsive front-end web applications using React.js, delivering enhanced user experiences across multiple client projects.",
+          "Built reusable web components following modern UI patterns and best practices, contributing to scalable component architecture.",
+          "Collaborated in Agile workflows with sprint planning, code reviews, and cross-functional communication to ensure high-quality deliverables."
+        ],
+        "role": [
+          "Developed responsive web components using React.js with focus on reusability, maintainability, and modern UI/UX patterns.",
+          "Integrated front-end applications with Node.js backend services, consuming RESTful APIs and handling data flow efficiently.",
+          "Participated in Agile ceremonies including sprint planning, daily standups, and retrospectives to align development efforts.",
+          "Conducted and participated in code reviews to maintain code quality standards and share knowledge across the team.",
+          "Implemented responsive design principles ensuring cross-browser compatibility and optimal performance across devices.",
+          "Collaborated with backend developers and designers to translate requirements into functional, user-friendly web interfaces."
+        ]
+      }
     }
   ],
   "volunteer": [],
@@ -151,9 +267,17 @@
   ],
   "project": [
     {
-      "name": "React Big Schedule",
-      "description": "Open-source React scheduling library with 175+ stars, 45+ forks, and 2000+ weekly npm downloads. Actively maintained with community contributions.",
+      "name": "React Big Schedule (Open Source Library)",
+      "description": [
+        "Maintain React scheduling library, serving production applications across healthcare, education, and enterprise sectors with 20% growth in adoption.",
+        "Review and merge 100+ community pull requests, provide technical guidance to contributors, and maintain code quality through automated Jest testing and GitHub Actions CI/CD.",
+        "Resolved 50+ GitHub issues including performance bottlenecks (reduced re-render cycles by 30%), timezone bugs, drag-and-drop edge cases, and WCAG accessibility improvements.",
+        "Published 15+ releases with new features: custom view modes, mobile touch support, improved drag-and-drop interactions, configurable time scales, and event conflict detection."
+      ],
       "language": "React",
+      "stars": "175+",
+      "downloads": "1,500+ weekly",
+      "forks": "45+",
       "image": "img/project/react-big-schedule.png",
       "url": "https://github.com/ansulagrawal/react-big-schedule"
     }

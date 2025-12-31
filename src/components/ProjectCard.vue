@@ -27,7 +27,6 @@ function onPageChange(page: number) {
 <template>
   <div class="card">
     <h2 class="mb-5 text-lg font-semibold dark:text-night-50">{{ $t('project') }}</h2>
-    <!-- Project 1 -->
     <ProjectCardItem
       v-for="(item, index) of paginatedItems"
       :item="item"

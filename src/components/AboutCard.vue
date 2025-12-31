@@ -16,13 +16,81 @@ const menu = [
 
 <template>
   <div class="card">
-    <h2 class="mb-4 text-lg font-semibold dark:text-night-50">{{ $t('about') }}</h2>
-    <p class="mb-5 text-sm text-gray-600 dark:text-night-200">
-      {{ resume.profile.aboutMe }}
+    <!-- Greeting -->
+    <h2 class="mb-2 text-xl font-semibold dark:text-night-50">
+      {{ resume.profile.aboutMe.greeting }}
+    </h2>
+
+    <!-- Introduction -->
+    <p class="mb-4 text-sm text-gray-600 dark:text-night-200">
+      {{ resume.profile.aboutMe.introduction }}
     </p>
-    <!-- <div class="my-5 border-t border-dashed border-gray-200"></div> -->
+
+    <!-- Journey Section -->
+    <div class="mb-4">
+      <h3 class="text-md mb-2 font-semibold dark:text-night-100">
+        {{ resume.profile.aboutMe.journey.title }}
+      </h3>
+      <p class="text-sm text-gray-600 dark:text-night-200">
+        {{ resume.profile.aboutMe.journey.content }}
+      </p>
+    </div>
+
+    <!-- Expertise Section -->
+    <div class="mb-4">
+      <h3 class="text-md mb-2 font-semibold dark:text-night-100">
+        {{ resume.profile.aboutMe.expertise.title }}
+      </h3>
+      <ul class="list-inside list-disc space-y-1 text-sm text-gray-600 dark:text-night-200">
+        <li v-for="(item, index) in resume.profile.aboutMe.expertise.items" :key="index">
+          {{ item }}
+        </li>
+      </ul>
+    </div>
+
+    <!-- Impact Metrics Section -->
+    <div class="mb-4">
+      <h3 class="text-md mb-2 font-semibold dark:text-night-100">
+        {{ resume.profile.aboutMe.impact.title }}
+      </h3>
+      <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+        <div
+          v-for="(metric, index) in resume.profile.aboutMe.impact.metrics"
+          :key="index"
+          class="rounded-lg bg-gray-50 p-2 text-center dark:bg-night-700">
+          <div class="text-lg font-bold text-primary-500">{{ metric.value }}</div>
+          <div class="text-xs text-gray-500 dark:text-night-300">{{ metric.label }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Philosophy Section -->
+    <div class="mb-4">
+      <h3 class="text-md mb-2 font-semibold dark:text-night-100">
+        {{ resume.profile.aboutMe.philosophy.title }}
+      </h3>
+      <p class="text-sm text-gray-600 dark:text-night-200">
+        {{ resume.profile.aboutMe.philosophy.content }}
+      </p>
+    </div>
+
+    <!-- Beyond Code Section -->
+    <div class="mb-4">
+      <h3 class="text-md mb-2 font-semibold dark:text-night-100">
+        {{ resume.profile.aboutMe.beyondCode.title }}
+      </h3>
+      <p class="text-sm text-gray-600 dark:text-night-200">
+        {{ resume.profile.aboutMe.beyondCode.content }}
+      </p>
+    </div>
+
+    <!-- Call to Action -->
+    <p class="mb-5 text-sm font-medium italic text-gray-700 dark:text-night-100">
+      {{ resume.profile.aboutMe.callToAction }}
+    </p>
+
+    <!-- Navigation Menu -->
     <ul class="inline-flex space-x-2 font-semibold">
-      <!-- Menu -->
       <li v-for="(item, index) of menu" :key="index">
         <router-link
           :to="item.route"

@@ -29,7 +29,7 @@ const showProfileImage = () => {
           @click="showProfileImage()"
           alt="Avatar"
           class="h-14 w-14 cursor-pointer rounded-xl border-2 border-white shadow-sm dark:border-night-800" />
-        <!-- End profile avtar -->
+        <!-- End profile avatar -->
         <vue-easy-lightbox :visible="visibleRef" :imgs="imgsRef" :index="indexRef" @hide="onHide"></vue-easy-lightbox>
         <div>
           <div class="text-lg font-bold text-gray-900 dark:text-night-50">{{ resume.profile.name }}</div>

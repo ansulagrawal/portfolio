@@ -4,6 +4,9 @@ import HeroIcon from './HeroIcon.vue';
 import { getImagePath } from '@/helpers/Helper';
 
 defineProps<{ item: Project; separator: boolean }>();
+
+// Helper to check if description is an array
+const isArray = (value: unknown): value is string[] => Array.isArray(value);
 </script>
 
 <template>
@@ -36,9 +39,19 @@ defineProps<{ item: Project; separator: boolean }>();
           </div>
         </div>
       </div>
-      <p class="text-sm text-gray-600 dark:text-night-300">
+
+      <!-- Description as bullet points (array) -->
+      <ul v-if="isArray(item.description)" class="list-disc space-y-1 pl-4 text-sm text-gray-600 dark:text-night-300">
+        <li v-for="(point, index) in item.description" :key="index">
+          {{ point }}
+        </li>
+      </ul>
+
+      <!-- Description as single string (fallback) -->
+      <p v-else class="text-sm text-gray-600 dark:text-night-300">
         {{ item.description }}
       </p>
+
       <a
         :href="item.url"
         target="_blank"

@@ -2,8 +2,26 @@
 import type { Experience } from '@/models/Experience';
 import HeroIcon from './HeroIcon.vue';
 import { getImagePath } from '@/helpers/Helper';
+import { computed } from 'vue';
 
-defineProps<{ item: Experience; separator: boolean }>();
+const props = defineProps<{ item: Experience; separator: boolean }>();
+
+const parsedDescription = computed(() => {
+  if (!props.item.description) return null;
+
+  if (typeof props.item.description === 'string') {
+    try {
+      return JSON.parse(props.item.description);
+    } catch {
+      return null;
+    }
+  }
+  return props.item.description;
+});
+
+const isStructuredDescription = computed(() => {
+  return parsedDescription.value && (parsedDescription.value.role || parsedDescription.value.highlight);
+});
 </script>
 
 <template>
@@ -38,7 +56,30 @@ defineProps<{ item: Experience; separator: boolean }>();
           </div>
         </div>
       </div>
-      <p class="text-sm text-gray-600 dark:text-night-300" v-html="item.description"></p>
+
+      <div v-if="isStructuredDescription" class="space-y-3 text-sm text-gray-600 dark:text-night-300">
+        <div v-if="parsedDescription.highlight?.length">
+          <strong class="text-gray-700 dark:text-night-200">Highlight:</strong>
+          <ul class="ml-6 mt-1 list-disc space-y-1">
+            <li v-for="(highlight, index) in parsedDescription.highlight" :key="'highlight-' + index">
+              {{ highlight }}
+            </li>
+          </ul>
+        </div>
+
+        <div v-if="parsedDescription.role?.length">
+          <strong class="text-gray-700 dark:text-night-200">Role:</strong>
+          <ul class="ml-6 mt-1 list-disc space-y-1">
+            <li v-for="(role, index) in parsedDescription.role" :key="'role-' + index">
+              {{ role }}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fallback: Original HTML description -->
+      <p v-else class="text-sm text-gray-600 dark:text-night-300" v-html="item.description"></p>
+
       <div v-if="separator" class="border-b border-dashed border-gray-200 dark:border-night-600"></div>
     </div>
   </div>
